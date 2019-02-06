@@ -12,9 +12,9 @@ const checkInput = () => {
 
   if (result === true) {
     output.setAttribute('class', 'valid')
-    output.innerHTML = 'Yes, input is valid.'
+    output.innerHTML = 'Yes, input is valid. :)'
   } else {
     output.setAttribute('class', 'invalid')
-    output.innerHTML = 'Sorry, input is invalid.'
+    output.innerHTML = 'Sorry, input is invalid. :('
   }
 }
